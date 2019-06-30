@@ -217,7 +217,7 @@
                     android:textColor="@color/white" />
 
                 <EditText
-                    android:id="@+id/mail"
+                    android:id="@+id/mEmailField"
                     android:layout_width="300dp"
                     android:layout_height="35dp"
                     android:background="#14ffffff"
@@ -244,7 +244,7 @@
                     android:textColor="@color/white" />
 
                 <EditText
-                    android:id="@+id/password"
+                    android:id="@+id/mPasswordField"
                     android:layout_width="300dp"
                     android:layout_height="35dp"
                     android:background="#14ffffff"
@@ -273,7 +273,6 @@
                     android:textColor="@color/white"
                     android:textSize="16dp" />
             </LinearLayout>
-
         </LinearLayout>
     </ScrollView>
 
@@ -290,7 +289,7 @@
         app:cardElevation="10dp">
 
         <RelativeLayout
-            android:id="@+id/button_login"
+            android:id="@+id/mRegBtn"
             android:layout_width="match_parent"
             android:layout_height="match_parent">
 

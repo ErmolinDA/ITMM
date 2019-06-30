@@ -26,5 +26,8 @@
                 android:title="Send" />
         </menu>
     </item>
+    <item
+        android:id="@+id/exit"
+        android:title="Exit" />
 
 </menu>
